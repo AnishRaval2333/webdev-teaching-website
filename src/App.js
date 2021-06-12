@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Pohja valmis
+          Pohja valmis, muttei ihan vielä
         </p>
         <a
           className="App-link"
