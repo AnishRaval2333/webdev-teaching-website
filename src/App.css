@@ -16,7 +16,7 @@
 
 .Basics {
   width: 100%;
-  background-color: #242323;
+  background-color: #706960;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -29,7 +29,20 @@
 }
 
 .Basics-header {
-  background-color: #020202;
+  background-color: #4844a3;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgba(255, 255, 255, 0.788);
+  font-weight: lighter;
+}
+
+.Excercises {
+  background-color: #030303;
   min-height: 100vh;
   width: 100%;
   display: flex;
@@ -43,4 +56,19 @@
 
 p{
   font-size: calc(6px + 2vmin);
+}
+
+.cardStyles {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.smallText {
+  font-size: 1.2rem;
+  color:#d4d4d4
+}
+
+.smallerText {
+  font-size: 1.3rem;
+  color:#d4d4d4
 }
